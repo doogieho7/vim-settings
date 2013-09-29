@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/usr/lib/eclipse'
+let g:netrw_dirhist_2='/home/jiho.ma/temp/ja/dmesg'
+let g:netrw_dirhist_3='/etc/udev'
+let g:netrw_dirhist_4='/media/hdd1/jbp_projects/ja-3g/android/kernel/exynos5410'
+let g:netrw_dirhist_5='/media/hdd1/jbp_projects/ja-3g/android/kernel/exynos5410/arch/arm/mach-exynos'
+let g:netrw_dirhist_6='/home/jiho.ma'
+let g:netrw_dirhist_7='/media/hdd1/jbp_projects/ja-3g/android/cts'
+let g:netrw_dirhist_8='/home/jiho.ma/.config/ibus'
+let g:netrw_dirhist_9='/etc/ld.so.conf.d'
