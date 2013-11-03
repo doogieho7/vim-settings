@@ -102,4 +102,14 @@ let Tlist_Sort_Type = "name"   	 "Sort method used for arranging the tabs
 let NERDTreeWinPos = "left"
 let NERDTreeQuitOnOpen = 1
 
+"=============== gtags =============="
+"fake cscope
+set csprg=gtags-cscope
+if filereadable("./GTAGS")
+	cs add GTAGS
+endif
+
+nmap <C-n> :cn<CR>
+nmap <C-p> :cp<CR>
+nmap <C-\><C-]> :GtagsCursor<CR>
 
