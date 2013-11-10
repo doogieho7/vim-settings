@@ -103,6 +103,7 @@ let NERDTreeWinPos = "left"
 let NERDTreeQuitOnOpen = 1
 
 "=============== gtags =============="
+let g:Gtags_OpenQuickfixWindow = 0
 "fake cscope
 set csprg=gtags-cscope
 if filereadable("./GTAGS")
